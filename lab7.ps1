@@ -9,7 +9,7 @@ if ($args.count -gt 0 -And $args[0] -in ("img1.jpg", "img2.jpg", "img3.jpg"))
     $img_file = $args[0]
 }
 
-$img = "https://github.com/qwik-azurelabs/ai900lab7/blob/main/data/$img_file"
+$img = "https://raw.githubusercontent.com/qwik-azurelabs/ai900lab7/main/data/$img_file"
 
 $headers = @{}
 $headers.Add( "Ocp-Apim-Subscription-Key", $key )
