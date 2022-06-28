@@ -3,8 +3,8 @@ $key="YOUR_KEY"
 
 
 # Code to call Computer Vision service for image analysis
-$img_file = "store-camera-1.jpg"
-if ($args.count -gt 0 -And $args[0] -in ("store-camera-1.jpg", "store-camera-2.jpg", "store-camera-3.jpg", "store-camera-4.jpg"))
+$img_file = "img1.jpg"
+if ($args.count -gt 0 -And $args[0] -in ("img1.jpg", "img2.jpg", "img3.jpg"))
 {
     $img_file = $args[0]
 }
